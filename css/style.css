@@ -1,9 +1,126 @@
-#nav-bar {
-    position: fixed;
-    top: 0;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
-@media (max-width: 99px) {
-    
+.heading {
+    padding: 10px;
+}
+
+.paragraph {
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-link {
+    padding        : 10px 5px;
+    color          : #ddd;
+    text-decoration: none;
+}
+
+#nav-bar {
+    position        : fixed;
+    top             : 0;
+    display         : flex;
+    right           : 0;
+    background-image: linear-gradient(#2f3156, #2f3156);
+}
+
+#header {
+    display              : flex;
+    justify-content      : flex-start;
+    align-items          : stretch;
+    flex-direction       : row;
+    background-image     : linear-gradient(#2f3156, #2f3156);
+    background-repeat    : repeat;
+    background-position  : left top;
+    background-attachment: scroll;
+    background-size      : auto;
+}
+
+#header-img {
+    display: flex;
+}
+
+#a {
+    background-image     : -webkit-linear-gradient(90deg, rgb(147, 191, 214) 0.680272%, rgb(102, 89, 131) 99.3197%);
+    background-repeat    : repeat;
+    background-position  : left top;
+    background-attachment: scroll;
+    background-size      : auto;
+    padding              : 0 40px 0 40px;
+}
+
+#iq396 {
+    padding-top   : 100px;
+    padding-bottom: 100px;
+    font-family   : Helvetica, serif;
+}
+
+#b {
+    padding              : 70px 40px 50px 40px;
+    background-image     : linear-gradient(#181c4c, #181c4c);
+    background-repeat    : repeat;
+    background-position  : left top;
+    background-attachment: scroll;
+    background-size      : auto;
+    opacity              : 1;
+}
+
+#email {
+    background-image     : linear-gradient(#323884, #323884);
+    background-repeat    : repeat;
+    background-position  : left top;
+    background-attachment: scroll;
+    background-size      : auto;
+    padding              : 5px 12px 5px 12px;
+}
+
+#submit {
+    background-image     : linear-gradient(#0f012a, #0f012a);
+    background-repeat    : repeat;
+    background-position  : left top;
+    background-attachment: scroll;
+    background-size      : auto;
+    font-weight          : 700;
+    font-size            : 16px;
+    color                : white;
+    border               : 0 outset rgb(118, 118, 118);
+    padding              : 5px 12px 5px 12px;
+}
+
+#ixivk {
+    color: #eeeeee;
+}
+
+#video {
+    width : 900px;
+    height: 500px;
+}
+
+#c {
+    background-image     : -webkit-linear-gradient(90deg, rgb(131, 134, 152) 0%, rgb(64, 56, 115) 100%);
+    background-repeat    : repeat;
+    background-position  : left top;
+    background-attachment: scroll;
+    background-size      : auto;
+    padding              : 50px 40px 50px 40px;
+    display              : flex;
+    justify-content      : center;
+}
+
+@media (max-width: 992px) {
+    #video {
+        height: 400px;
+    }
 }
